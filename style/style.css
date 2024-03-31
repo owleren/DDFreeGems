@@ -5,10 +5,10 @@
 
 .headerimg {
     position: absolute;
-    left: 11%;
+    left: 20%;
     top: 0;
     z-index: -1;
-    width: 80%;
+    width: 60%;
     height: 300px;
 }
 
@@ -27,7 +27,7 @@ h1 {
 button {
     font-size: 50px;
     color: azure;
-    width: 98%;
+    width: 100%;
     text-align: center;
     height: 100px;
     font-family: DDFont;
@@ -72,12 +72,12 @@ article {
 
 .a {
    flex-basis: calc(33.33% - 30px + 10px);
-   padding-left: 6%;
+   padding-left: 10%;
 }
 
 .a2 {
-    flex-basis: calc(33.33% - 30px + 10px);
-    padding-left: 6%;
+    flex-basis: calc(33.33% - 20px);
+    padding-left: 10%;
  }
 
 header {
