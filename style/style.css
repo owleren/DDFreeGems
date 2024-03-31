@@ -12,22 +12,32 @@
     height: 300px;
 }
 
+.slogan {
+    color: azure;
+    font-size: 33px;
+}
+
 body {
     font-family: DDFont;
     background: rgb(8,4,4);
-    background: linear-gradient(90deg, rgba(8,4,4,1) 0%, rgba(152,4,4,1) 10%, rgba(152,4,4,1) 33%, rgba(152,4,4,1) 67%, rgba(152,4,4,1) 90%, rgba(8,4,4,1) 100%)
+    background: linear-gradient(90deg, rgba(8,4,4,1) 0%, rgba(75,4,4,1) 10%, rgba(92,4,4,1) 33%, rgba(92,4,4,1) 67%, rgba(75,4,4,1) 90%, rgba(8,4,4,1) 100%);
 }
 
 h1 {
     text-align: center;
+    color: azure;
     padding-top: 30px;
     font-size: 50px;
+}
+
+.footer {
+    text-align: center;
 }
 
 button {
     font-size: 50px;
     color: azure;
-    width: 100%;
+    width: 60%;
     text-align: center;
     height: 100px;
     font-family: DDFont;
@@ -44,7 +54,7 @@ button {
 }
 
 .header {
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
     font-size: 60px;
     color: azure;
@@ -53,31 +63,32 @@ button {
 
 .gems {
     padding-top: 50px;
-    display: flex;flex-basis: calc(33.33% - 20px);
-    justify-content: space-between;
+    display: flex;
 }
 
+.boost {
+    color: azure
+}
 
 .boosters {
-    display: flex;flex-basis: calc(33.33% - 20px);
-    justify-content: space-between;
+    display: flex;
 }
 
 article {
     border: solid 2px black; 
-    height: 300px;
+    height: 350px;
     width: 300px;
-    background-color: azure;
+    background-color: black;
+    color: azure;
+    border-radius: 8px;
 }
 
 .a {
-   flex-basis: calc(33.33% - 30px + 10px);
-   padding-left: 10%;
+    padding-left: 15%;
 }
 
 .a2 {
-    flex-basis: calc(33.33% - 20px);
-    padding-left: 10%;
+    padding-left: 15%;
  }
 
 header {
@@ -87,22 +98,37 @@ header {
 
 .a section {
     text-align: center;
-    padding-top: 65px;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .a2 section {
     text-align: center;
-    padding-top: 65px;
-    font-size: 45px;
+    font-size: 40px;
 }
 
-.mongol {
-    width: 40px;
-    height: 40px;
-}
 
 video {
     display: block;
     margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: azure;
+}
+
+.gemimg {
+    width: 200px;
+    height: 200px;
+}
+
+.arrows {
+    height: 200px;
+    width: 50%;
+}
+
+.gfg {
+    font-size: 80px;
+    color: azure;
 }
