@@ -57,9 +57,6 @@ button {
     justify-content: space-between;
 }
 
-.boost {
-    padding-top: 300px;
-}
 
 .boosters {
     display: flex;flex-basis: calc(33.33% - 20px);
@@ -103,4 +100,9 @@ header {
 .mongol {
     width: 40px;
     height: 40px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
 }
